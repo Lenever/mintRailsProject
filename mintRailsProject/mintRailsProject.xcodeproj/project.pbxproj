@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045C48BC2566926100A7C546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C48BB2566926100A7C546 /* AppDelegate.swift */; };
+		045C48BE2566926100A7C546 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C48BD2566926100A7C546 /* SceneDelegate.swift */; };
+		045C48C02566926100A7C546 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C48BF2566926100A7C546 /* ViewController.swift */; };
+		045C48C32566926100A7C546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045C48C12566926100A7C546 /* Main.storyboard */; };
+		045C48C52566926400A7C546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045C48C42566926400A7C546 /* Assets.xcassets */; };
+		045C48C82566926400A7C546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045C48C62566926400A7C546 /* LaunchScreen.storyboard */; };
+		045C48D32566926500A7C546 /* mintRailsProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C48D22566926500A7C546 /* mintRailsProjectTests.swift */; };
+		045C48DE2566926500A7C546 /* mintRailsProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C48DD2566926500A7C546 /* mintRailsProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		045C48CF2566926500A7C546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045C48B02566926100A7C546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045C48B72566926100A7C546;
+			remoteInfo = mintRailsProject;
+		};
+		045C48DA2566926500A7C546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045C48B02566926100A7C546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045C48B72566926100A7C546;
+			remoteInfo = mintRailsProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045C48B82566926100A7C546 /* mintRailsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mintRailsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045C48BB2566926100A7C546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		045C48BD2566926100A7C546 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		045C48BF2566926100A7C546 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		045C48C22566926100A7C546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		045C48C42566926400A7C546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		045C48C72566926400A7C546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		045C48C92566926400A7C546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045C48CE2566926500A7C546 /* mintRailsProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mintRailsProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		045C48D22566926500A7C546 /* mintRailsProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mintRailsProjectTests.swift; sourceTree = "<group>"; };
+		045C48D42566926500A7C546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045C48D92566926500A7C546 /* mintRailsProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mintRailsProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		045C48DD2566926500A7C546 /* mintRailsProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mintRailsProjectUITests.swift; sourceTree = "<group>"; };
+		045C48DF2566926500A7C546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045C48B52566926100A7C546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045C48CB2566926500A7C546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045C48D62566926500A7C546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045C48AF2566926100A7C546 = {
+			isa = PBXGroup;
+			children = (
+				045C48BA2566926100A7C546 /* mintRailsProject */,
+				045C48D12566926500A7C546 /* mintRailsProjectTests */,
+				045C48DC2566926500A7C546 /* mintRailsProjectUITests */,
+				045C48B92566926100A7C546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		045C48B92566926100A7C546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045C48B82566926100A7C546 /* mintRailsProject.app */,
+				045C48CE2566926500A7C546 /* mintRailsProjectTests.xctest */,
+				045C48D92566926500A7C546 /* mintRailsProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		045C48BA2566926100A7C546 /* mintRailsProject */ = {
+			isa = PBXGroup;
+			children = (
+				045C48BB2566926100A7C546 /* AppDelegate.swift */,
+				045C48BD2566926100A7C546 /* SceneDelegate.swift */,
+				045C48BF2566926100A7C546 /* ViewController.swift */,
+				045C48C12566926100A7C546 /* Main.storyboard */,
+				045C48C42566926400A7C546 /* Assets.xcassets */,
+				045C48C62566926400A7C546 /* LaunchScreen.storyboard */,
+				045C48C92566926400A7C546 /* Info.plist */,
+			);
+			path = mintRailsProject;
+			sourceTree = "<group>";
+		};
+		045C48D12566926500A7C546 /* mintRailsProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				045C48D22566926500A7C546 /* mintRailsProjectTests.swift */,
+				045C48D42566926500A7C546 /* Info.plist */,
+			);
+			path = mintRailsProjectTests;
+			sourceTree = "<group>";
+		};
+		045C48DC2566926500A7C546 /* mintRailsProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				045C48DD2566926500A7C546 /* mintRailsProjectUITests.swift */,
+				045C48DF2566926500A7C546 /* Info.plist */,
+			);
+			path = mintRailsProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		045C48B72566926100A7C546 /* mintRailsProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045C48E22566926500A7C546 /* Build configuration list for PBXNativeTarget "mintRailsProject" */;
+			buildPhases = (
+				045C48B42566926100A7C546 /* Sources */,
+				045C48B52566926100A7C546 /* Frameworks */,
+				045C48B62566926100A7C546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mintRailsProject;
+			productName = mintRailsProject;
+			productReference = 045C48B82566926100A7C546 /* mintRailsProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		045C48CD2566926500A7C546 /* mintRailsProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045C48E52566926500A7C546 /* Build configuration list for PBXNativeTarget "mintRailsProjectTests" */;
+			buildPhases = (
+				045C48CA2566926500A7C546 /* Sources */,
+				045C48CB2566926500A7C546 /* Frameworks */,
+				045C48CC2566926500A7C546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045C48D02566926500A7C546 /* PBXTargetDependency */,
+			);
+			name = mintRailsProjectTests;
+			productName = mintRailsProjectTests;
+			productReference = 045C48CE2566926500A7C546 /* mintRailsProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		045C48D82566926500A7C546 /* mintRailsProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045C48E82566926500A7C546 /* Build configuration list for PBXNativeTarget "mintRailsProjectUITests" */;
+			buildPhases = (
+				045C48D52566926500A7C546 /* Sources */,
+				045C48D62566926500A7C546 /* Frameworks */,
+				045C48D72566926500A7C546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045C48DB2566926500A7C546 /* PBXTargetDependency */,
+			);
+			name = mintRailsProjectUITests;
+			productName = mintRailsProjectUITests;
+			productReference = 045C48D92566926500A7C546 /* mintRailsProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045C48B02566926100A7C546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					045C48B72566926100A7C546 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					045C48CD2566926500A7C546 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 045C48B72566926100A7C546;
+					};
+					045C48D82566926500A7C546 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 045C48B72566926100A7C546;
+					};
+				};
+			};
+			buildConfigurationList = 045C48B32566926100A7C546 /* Build configuration list for PBXProject "mintRailsProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 045C48AF2566926100A7C546;
+			productRefGroup = 045C48B92566926100A7C546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045C48B72566926100A7C546 /* mintRailsProject */,
+				045C48CD2566926500A7C546 /* mintRailsProjectTests */,
+				045C48D82566926500A7C546 /* mintRailsProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045C48B62566926100A7C546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045C48C82566926400A7C546 /* LaunchScreen.storyboard in Resources */,
+				045C48C52566926400A7C546 /* Assets.xcassets in Resources */,
+				045C48C32566926100A7C546 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045C48CC2566926500A7C546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045C48D72566926500A7C546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045C48B42566926100A7C546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045C48C02566926100A7C546 /* ViewController.swift in Sources */,
+				045C48BC2566926100A7C546 /* AppDelegate.swift in Sources */,
+				045C48BE2566926100A7C546 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045C48CA2566926500A7C546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045C48D32566926500A7C546 /* mintRailsProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045C48D52566926500A7C546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045C48DE2566926500A7C546 /* mintRailsProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		045C48D02566926500A7C546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045C48B72566926100A7C546 /* mintRailsProject */;
+			targetProxy = 045C48CF2566926500A7C546 /* PBXContainerItemProxy */;
+		};
+		045C48DB2566926500A7C546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045C48B72566926100A7C546 /* mintRailsProject */;
+			targetProxy = 045C48DA2566926500A7C546 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		045C48C12566926100A7C546 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045C48C22566926100A7C546 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		045C48C62566926400A7C546 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045C48C72566926400A7C546 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045C48E02566926500A7C546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		045C48E12566926500A7C546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		045C48E32566926500A7C546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mintRailsProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lenever.mintRailsProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		045C48E42566926500A7C546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mintRailsProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lenever.mintRailsProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		045C48E62566926500A7C546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mintRailsProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lenever.mintRailsProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mintRailsProject.app/mintRailsProject";
+			};
+			name = Debug;
+		};
+		045C48E72566926500A7C546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mintRailsProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lenever.mintRailsProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mintRailsProject.app/mintRailsProject";
+			};
+			name = Release;
+		};
+		045C48E92566926500A7C546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mintRailsProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lenever.mintRailsProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mintRailsProject;
+			};
+			name = Debug;
+		};
+		045C48EA2566926500A7C546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mintRailsProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lenever.mintRailsProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mintRailsProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045C48B32566926100A7C546 /* Build configuration list for PBXProject "mintRailsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045C48E02566926500A7C546 /* Debug */,
+				045C48E12566926500A7C546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045C48E22566926500A7C546 /* Build configuration list for PBXNativeTarget "mintRailsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045C48E32566926500A7C546 /* Debug */,
+				045C48E42566926500A7C546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045C48E52566926500A7C546 /* Build configuration list for PBXNativeTarget "mintRailsProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045C48E62566926500A7C546 /* Debug */,
+				045C48E72566926500A7C546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045C48E82566926500A7C546 /* Build configuration list for PBXNativeTarget "mintRailsProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045C48E92566926500A7C546 /* Debug */,
+				045C48EA2566926500A7C546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045C48B02566926100A7C546 /* Project object */;
+}
