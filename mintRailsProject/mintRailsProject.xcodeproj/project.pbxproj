@@ -17,6 +17,9 @@
 		045C490B2566A60500A7C546 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C490A2566A60500A7C546 /* StringConstants.swift */; };
 		045C49102566A6B000A7C546 /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C490F2566A6B000A7C546 /* ListViewCell.swift */; };
 		045C49192566AB5300A7C546 /* AllCommitsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C49182566AB5300A7C546 /* AllCommitsDataModel.swift */; };
+		045C491E2566AC7900A7C546 /* ListCommitsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C491D2566AC7900A7C546 /* ListCommitsInteractor.swift */; };
+		045C49232566ACE500A7C546 /* ListCommitsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C49222566ACE500A7C546 /* ListCommitsWorker.swift */; };
+		045C49292566AD7D00A7C546 /* ListCommitsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C49282566AD7D00A7C546 /* ListCommitsPresenter.swift */; };
 		41EAAFF306699B577EF5BE8E /* Pods_mintRailsProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE89C721036ECEAE7FE5A55 /* Pods_mintRailsProject.framework */; };
 		C43CB962FA375CB6F840E921 /* Pods_mintRailsProject_mintRailsProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D197E593D0EBCAA4C683DDC /* Pods_mintRailsProject_mintRailsProjectUITests.framework */; };
 		FC5D2BAF777BD9828C79E3DF /* Pods_mintRailsProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99EEEAC43A7D198C8517722 /* Pods_mintRailsProjectTests.framework */; };
@@ -57,6 +60,9 @@
 		045C490A2566A60500A7C546 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		045C490F2566A6B000A7C546 /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
 		045C49182566AB5300A7C546 /* AllCommitsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCommitsDataModel.swift; sourceTree = "<group>"; };
+		045C491D2566AC7900A7C546 /* ListCommitsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCommitsInteractor.swift; sourceTree = "<group>"; };
+		045C49222566ACE500A7C546 /* ListCommitsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCommitsWorker.swift; sourceTree = "<group>"; };
+		045C49282566AD7D00A7C546 /* ListCommitsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCommitsPresenter.swift; sourceTree = "<group>"; };
 		41EF769CFDB41CC5FFE67D54 /* Pods-mintRailsProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintRailsProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-mintRailsProjectTests/Pods-mintRailsProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D197E593D0EBCAA4C683DDC /* Pods_mintRailsProject_mintRailsProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mintRailsProject_mintRailsProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC363F73A5556698517A962 /* Pods-mintRailsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintRailsProject.release.xcconfig"; path = "Target Support Files/Pods-mintRailsProject/Pods-mintRailsProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +126,7 @@
 		045C48BA2566926100A7C546 /* mintRailsProject */ = {
 			isa = PBXGroup;
 			children = (
+				045C49272566AD1B00A7C546 /* DataLoader */,
 				045C49172566AAEE00A7C546 /* DataModel */,
 				045C49052566A53500A7C546 /* Scenes */,
 				045C48BB2566926100A7C546 /* AppDelegate.swift */,
@@ -162,6 +169,9 @@
 			isa = PBXGroup;
 			children = (
 				045C48BF2566926100A7C546 /* ListCommitsViewController.swift */,
+				045C491D2566AC7900A7C546 /* ListCommitsInteractor.swift */,
+				045C49222566ACE500A7C546 /* ListCommitsWorker.swift */,
+				045C49282566AD7D00A7C546 /* ListCommitsPresenter.swift */,
 				045C490F2566A6B000A7C546 /* ListViewCell.swift */,
 			);
 			path = "List Commits";
@@ -173,6 +183,13 @@
 				045C49182566AB5300A7C546 /* AllCommitsDataModel.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		045C49272566AD1B00A7C546 /* DataLoader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataLoader;
 			sourceTree = "<group>";
 		};
 		B1A7873622F9ED461143E21F /* Pods */ = {
@@ -435,10 +452,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045C491E2566AC7900A7C546 /* ListCommitsInteractor.swift in Sources */,
 				045C490B2566A60500A7C546 /* StringConstants.swift in Sources */,
 				045C48C02566926100A7C546 /* ListCommitsViewController.swift in Sources */,
 				045C49102566A6B000A7C546 /* ListViewCell.swift in Sources */,
+				045C49232566ACE500A7C546 /* ListCommitsWorker.swift in Sources */,
 				045C48BC2566926100A7C546 /* AppDelegate.swift in Sources */,
+				045C49292566AD7D00A7C546 /* ListCommitsPresenter.swift in Sources */,
 				045C49192566AB5300A7C546 /* AllCommitsDataModel.swift in Sources */,
 				045C48BE2566926100A7C546 /* SceneDelegate.swift in Sources */,
 			);

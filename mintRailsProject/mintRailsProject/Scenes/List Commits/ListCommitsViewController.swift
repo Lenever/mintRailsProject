@@ -7,6 +7,11 @@
 
 import UIKit
 
+protocol ListDisplayLogic {
+    func displaySuccess(allCommits: [AllCommitsDataModel])
+    func displayError(error: String)
+}
+
 class ListCommitsViewController: UITableViewController {
     var commits = ["zero","one","two","three","four","five"]
     
@@ -33,3 +38,15 @@ class ListCommitsViewController: UITableViewController {
     }
 }
 
+extension ListCommitsViewController: ListDisplayLogic {
+    func displaySuccess(allCommits: [AllCommitsDataModel]) {
+//        self.commits = allCommits
+//        self.reloadTableView()
+    }
+    
+    func displayError(error: String) {
+        let alert = UIAlertController(title: "⚠️", message: error, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
+}
