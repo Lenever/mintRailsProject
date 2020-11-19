@@ -13,11 +13,13 @@ protocol ListDisplayLogic {
 }
 
 class ListCommitsViewController: UITableViewController {
-    var commits = ["zero","one","two","three","four","five"]
+    var commits: [AllCommitsDataModel]?
+    var listCommitsInteractor: ListCommitsBusinessLogic?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        self.listCommitsInteractor?.getCommits()
         self.tableView.register(ListViewCell.self, forCellReuseIdentifier: "cellId")
     }
     
@@ -26,22 +28,28 @@ class ListCommitsViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return commits.count 
+        return commits?.count ?? 0
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath) as? ListViewCell
-        let path = commits[indexPath.row]
+        let path = commits?[indexPath.row]
         cell?.page = path
         
         return cell ?? UITableViewCell()
+    }
+    
+    func reloadTableView() {
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
     }
 }
 
 extension ListCommitsViewController: ListDisplayLogic {
     func displaySuccess(allCommits: [AllCommitsDataModel]) {
-//        self.commits = allCommits
-//        self.reloadTableView()
+        self.commits = allCommits
+        self.reloadTableView()
     }
     
     func displayError(error: String) {

@@ -16,13 +16,13 @@ class ListViewCell: UITableViewCell {
     var commitMessageView = UIView()
     var commitMessage = UILabel()
     
-    var page: String? {
+    var page: AllCommitsDataModel? {
         didSet {
             if let page = page {
-                authorNameLabel.text = page
-                authorEmailLabel.text = page
-                date.text = page
-                commitMessage.text = page
+                authorNameLabel.text = page.commit.author.name
+                authorEmailLabel.text = page.commit.author.email
+                date.text = page.commit.author.date
+                commitMessage.text = page.commit.message
             }
         }
     }

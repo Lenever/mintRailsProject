@@ -12,13 +12,13 @@ protocol ListCommitWorkerProtocol {
 }
 
 class ListCommitsWorker: ListCommitWorkerProtocol {
-//    var dataLoader: DataLoaderProtocol?
+    var dataLoader: DataLoaderProtocol?
     
     func getData (success: @escaping ([AllCommitsDataModel]) -> (), failure: @escaping (String) -> ()) {
-//        dataLoader?.getData(success: { (allCommits) in
-//            success(allCommits)
-//        }, failure: { (errorMessage) in
-//            failure(errorMessage)
-//        })
+        dataLoader?.getData(success: { (allCommits) in
+            success(allCommits)
+        }, failure: { (errorMessage) in
+            failure(errorMessage)
+        })
     }
 }
