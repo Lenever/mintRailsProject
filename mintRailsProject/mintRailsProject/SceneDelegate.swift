@@ -16,7 +16,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         let viewController = ListCommitsViewController()
         viewController.title = ListViewControllerConstants.tableTitle
-
+        let presenter = ListCommitsPresenter()
+        presenter.ListView = viewController
+        let networkCaller = DataLoader()
+        let listWorker = ListCommitsWorker()
+        listWorker.dataLoader = networkCaller
+        let interactor = ListCommitsInteractor()
+        interactor.presenter = presenter
+        interactor.worker = listWorker
+        interactor.presenter = presenter
+        viewController.listCommitsInteractor = interactor
         window?.rootViewController = UINavigationController(rootViewController: viewController)
         window?.makeKeyAndVisible()
     }
