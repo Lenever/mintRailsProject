@@ -13,7 +13,7 @@ class ListCommitsViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cellId")
+        self.tableView.register(ListViewCell.self, forCellReuseIdentifier: "cellId")
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -25,12 +25,11 @@ class ListCommitsViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath) //as? ListViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath) as? ListViewCell
         let path = commits[indexPath.row]
+        cell?.page = path
         
-        cell.textLabel?.text = path
-        
-        return cell 
+        return cell ?? UITableViewCell()
     }
 }
 
