@@ -14,6 +14,9 @@
 		045C48C82566926400A7C546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045C48C62566926400A7C546 /* LaunchScreen.storyboard */; };
 		045C48D32566926500A7C546 /* mintRailsProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C48D22566926500A7C546 /* mintRailsProjectTests.swift */; };
 		045C48DE2566926500A7C546 /* mintRailsProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C48DD2566926500A7C546 /* mintRailsProjectUITests.swift */; };
+		41EAAFF306699B577EF5BE8E /* Pods_mintRailsProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE89C721036ECEAE7FE5A55 /* Pods_mintRailsProject.framework */; };
+		C43CB962FA375CB6F840E921 /* Pods_mintRailsProject_mintRailsProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D197E593D0EBCAA4C683DDC /* Pods_mintRailsProject_mintRailsProjectUITests.framework */; };
+		FC5D2BAF777BD9828C79E3DF /* Pods_mintRailsProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99EEEAC43A7D198C8517722 /* Pods_mintRailsProjectTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		028424F573B8454CB5CED7CE /* Pods-mintRailsProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintRailsProject.debug.xcconfig"; path = "Target Support Files/Pods-mintRailsProject/Pods-mintRailsProject.debug.xcconfig"; sourceTree = "<group>"; };
 		045C48B82566926100A7C546 /* mintRailsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mintRailsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045C48BB2566926100A7C546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045C48BD2566926100A7C546 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		045C48D92566926500A7C546 /* mintRailsProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mintRailsProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045C48DD2566926500A7C546 /* mintRailsProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mintRailsProjectUITests.swift; sourceTree = "<group>"; };
 		045C48DF2566926500A7C546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41EF769CFDB41CC5FFE67D54 /* Pods-mintRailsProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintRailsProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-mintRailsProjectTests/Pods-mintRailsProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D197E593D0EBCAA4C683DDC /* Pods_mintRailsProject_mintRailsProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mintRailsProject_mintRailsProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC363F73A5556698517A962 /* Pods-mintRailsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintRailsProject.release.xcconfig"; path = "Target Support Files/Pods-mintRailsProject/Pods-mintRailsProject.release.xcconfig"; sourceTree = "<group>"; };
+		7EF0FF19102AA9ED118E1BEA /* Pods-mintRailsProject-mintRailsProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintRailsProject-mintRailsProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-mintRailsProject-mintRailsProjectUITests/Pods-mintRailsProject-mintRailsProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E99EEEAC43A7D198C8517722 /* Pods_mintRailsProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mintRailsProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2F1A153F10582C996DC3A3 /* Pods-mintRailsProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintRailsProjectTests.release.xcconfig"; path = "Target Support Files/Pods-mintRailsProjectTests/Pods-mintRailsProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA14F23D579526918EA75105 /* Pods-mintRailsProject-mintRailsProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintRailsProject-mintRailsProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-mintRailsProject-mintRailsProjectUITests/Pods-mintRailsProject-mintRailsProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCE89C721036ECEAE7FE5A55 /* Pods_mintRailsProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mintRailsProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EAAFF306699B577EF5BE8E /* Pods_mintRailsProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5D2BAF777BD9828C79E3DF /* Pods_mintRailsProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43CB962FA375CB6F840E921 /* Pods_mintRailsProject_mintRailsProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				045C48D12566926500A7C546 /* mintRailsProjectTests */,
 				045C48DC2566926500A7C546 /* mintRailsProjectUITests */,
 				045C48B92566926100A7C546 /* Products */,
+				B1A7873622F9ED461143E21F /* Pods */,
+				F8A110182C4056E8760356E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,30 @@
 			path = mintRailsProjectUITests;
 			sourceTree = "<group>";
 		};
+		B1A7873622F9ED461143E21F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				028424F573B8454CB5CED7CE /* Pods-mintRailsProject.debug.xcconfig */,
+				6FC363F73A5556698517A962 /* Pods-mintRailsProject.release.xcconfig */,
+				FA14F23D579526918EA75105 /* Pods-mintRailsProject-mintRailsProjectUITests.debug.xcconfig */,
+				7EF0FF19102AA9ED118E1BEA /* Pods-mintRailsProject-mintRailsProjectUITests.release.xcconfig */,
+				41EF769CFDB41CC5FFE67D54 /* Pods-mintRailsProjectTests.debug.xcconfig */,
+				EF2F1A153F10582C996DC3A3 /* Pods-mintRailsProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F8A110182C4056E8760356E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCE89C721036ECEAE7FE5A55 /* Pods_mintRailsProject.framework */,
+				5D197E593D0EBCAA4C683DDC /* Pods_mintRailsProject_mintRailsProjectUITests.framework */,
+				E99EEEAC43A7D198C8517722 /* Pods_mintRailsProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045C48E22566926500A7C546 /* Build configuration list for PBXNativeTarget "mintRailsProject" */;
 			buildPhases = (
+				89E2F95DAD81D17D08856485 /* [CP] Check Pods Manifest.lock */,
 				045C48B42566926100A7C546 /* Sources */,
 				045C48B52566926100A7C546 /* Frameworks */,
 				045C48B62566926100A7C546 /* Resources */,
+				F8268664D34B81861146BFD1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045C48E52566926500A7C546 /* Build configuration list for PBXNativeTarget "mintRailsProjectTests" */;
 			buildPhases = (
+				9747E80AEDBA940F94379698 /* [CP] Check Pods Manifest.lock */,
 				045C48CA2566926500A7C546 /* Sources */,
 				045C48CB2566926500A7C546 /* Frameworks */,
 				045C48CC2566926500A7C546 /* Resources */,
@@ -167,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045C48E82566926500A7C546 /* Build configuration list for PBXNativeTarget "mintRailsProjectUITests" */;
 			buildPhases = (
+				444C1E8FF83DE051F75DCAA9 /* [CP] Check Pods Manifest.lock */,
 				045C48D52566926500A7C546 /* Sources */,
 				045C48D62566926500A7C546 /* Frameworks */,
 				045C48D72566926500A7C546 /* Resources */,
+				BF6559F2A84BA8160D98AE20 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +294,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		444C1E8FF83DE051F75DCAA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mintRailsProject-mintRailsProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89E2F95DAD81D17D08856485 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mintRailsProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9747E80AEDBA940F94379698 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mintRailsProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6559F2A84BA8160D98AE20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mintRailsProject-mintRailsProjectUITests/Pods-mintRailsProject-mintRailsProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mintRailsProject-mintRailsProjectUITests/Pods-mintRailsProject-mintRailsProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mintRailsProject-mintRailsProjectUITests/Pods-mintRailsProject-mintRailsProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8268664D34B81861146BFD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mintRailsProject/Pods-mintRailsProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mintRailsProject/Pods-mintRailsProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mintRailsProject/Pods-mintRailsProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		045C48B42566926100A7C546 /* Sources */ = {
@@ -421,6 +570,7 @@
 		};
 		045C48E32566926500A7C546 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 028424F573B8454CB5CED7CE /* Pods-mintRailsProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,6 +589,7 @@
 		};
 		045C48E42566926500A7C546 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC363F73A5556698517A962 /* Pods-mintRailsProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -457,6 +608,7 @@
 		};
 		045C48E62566926500A7C546 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41EF769CFDB41CC5FFE67D54 /* Pods-mintRailsProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +630,7 @@
 		};
 		045C48E72566926500A7C546 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2F1A153F10582C996DC3A3 /* Pods-mintRailsProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +652,7 @@
 		};
 		045C48E92566926500A7C546 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA14F23D579526918EA75105 /* Pods-mintRailsProject-mintRailsProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -518,6 +672,7 @@
 		};
 		045C48EA2566926500A7C546 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF0FF19102AA9ED118E1BEA /* Pods-mintRailsProject-mintRailsProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
