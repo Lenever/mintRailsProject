@@ -23,6 +23,10 @@ class ListCommitsViewController: UITableViewController {
         self.tableView.register(ListViewCell.self, forCellReuseIdentifier: ListViewControllerConstants.forCellReuseIdentifier)
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        tableView.tableFooterView = UIView()
+    }
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         1
     }
