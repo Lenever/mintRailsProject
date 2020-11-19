@@ -9,7 +9,6 @@ import UIKit
 import SnapKit
 
 class ListViewCell: UITableViewCell {
-    
     var cellView = UIView()
     var authorNameLabel = UILabel()
     var authorEmailLabel = UILabel()
@@ -39,7 +38,7 @@ class ListViewCell: UITableViewCell {
     }
     
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        fatalError(ListViewCellConstants.fatalError)
     }
     
     func setupCellView(){
@@ -87,18 +86,6 @@ class ListViewCell: UITableViewCell {
             make.top.equalTo(authorEmailLabel.snp.bottom).offset(5)
             make.left.equalTo(cellView.snp.left).offset(10)
             make.height.equalTo(20)
-        }
-    }
-    
-    func setupCommitMessageView() {
-        cellView.addSubview(commitMessageView)
-        commitMessageView.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-        commitMessageView.layer.cornerRadius = 5
-        commitMessageView.snp.makeConstraints { (make) in
-            make.top.equalTo(date.snp.bottom).offset(10)
-            make.left.equalTo(cellView.snp.left).offset(10)
-            make.right.equalTo(cellView.snp.right).offset(-10)
-            make.bottom.equalTo(cellView.snp.bottom).offset(-20)
         }
     }
     
