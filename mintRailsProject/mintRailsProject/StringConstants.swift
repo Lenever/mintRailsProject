@@ -9,6 +9,9 @@ import Foundation
 
 enum ListViewControllerConstants {
     static let tableTitle = "Recent commits on Rails project"
+    static let forCellReuseIdentifier = "cellId"
+    static let alertIcon = "⚠️"
+    static let alertTitle = "Ok"
 }
 
 enum ListViewCellConstants {

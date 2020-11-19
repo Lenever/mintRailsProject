@@ -20,7 +20,7 @@ class ListCommitsViewController: UITableViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         self.listCommitsInteractor?.getCommits()
-        self.tableView.register(ListViewCell.self, forCellReuseIdentifier: "cellId")
+        self.tableView.register(ListViewCell.self, forCellReuseIdentifier: ListViewControllerConstants.forCellReuseIdentifier)
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -32,7 +32,7 @@ class ListCommitsViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath) as? ListViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: ListViewControllerConstants.forCellReuseIdentifier, for: indexPath) as? ListViewCell
         let path = commits?[indexPath.row]
         cell?.page = path
         
@@ -53,8 +53,8 @@ extension ListCommitsViewController: ListDisplayLogic {
     }
     
     func displayError(error: String) {
-        let alert = UIAlertController(title: "⚠️", message: error, preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
+        let alert = UIAlertController(title: ListViewControllerConstants.alertIcon, message: error, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: ListViewControllerConstants.alertTitle, style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
 }
